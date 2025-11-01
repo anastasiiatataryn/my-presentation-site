@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #EA7D7D;
+}
+
+:root {
+    --text-color: #26C7EA;
+    --bg-color: #0B0E66;
+}
+
+/* --------------------header----------------------- */
+.header-wrap {
+    display: flex;
+    width: 1643px;
+    height: 80px;
+    background-color: #FDFDFD;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 128px;
+    margin: 64px auto 0 auto;
+    gap: 285px;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    list-style: none;
+}
+
+
+  .header-logo:active {
+    transform: scale(0.95);
+  }
+.header-menu a {
+    font-weight: Helvetica;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #480A0A;
+    text-decoration: none;
+}
+
+.header-btn {
+    width: 108px;
+    height: 48px;
+    background-color: #F3B5B5;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 54px;
+    font-weight: Helvetica;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #480A0A
+}
+.header-btn:hover {
+    background-color: #480A0A;
+    color: white;
+
+  }
+
+  .header-btn:active {
+    transform: scale(0.95);
+  }
+
+.header-info {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* --------------------HERO-SECTION----------------------- */
+
+.sec1-herosection {
+    background-image: url(photo/hero-section.png);
+    height: 972px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 52px;
+    margin: auto 67px auto;
+
+}
+
+.container-hero-dection {
+    margin-left: 72px;
+    padding-top: 12px;
+}
+.header-btn2:hover {
+    background-color: #e8aeae;
+    color: white;
+
+  }
+
+  .header-btn2:active {
+    transform: scale(0.95);
+  }
+.text-block h2 {
+    font-family: "Arima", system-ui;
+    font-weight: 400;
+    font-size: 160px;
+    line-height: 120%;
+    color: #FDFDFD;
+    margin-top: 312px;
+
+}
+
+.text-block h5 {
+    font-weight: Helvetica;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: #FDFDFD
+}
+
+/* ------------HERO-SECTION button------------- */
+
+.box-book {
+    display: flex;
+}
+
+.header-btn2 {
+    width: 236px;
+    height: 48px;
+    background-color: #F3B5B5;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 54px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24%;
+    color: #480A0A;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+.header-btn3 {
+    width: 107px;
+    height: 48px;
+    padding: 12px 24px;
+    border: 1px solid #f7f7f7;
+    background: transparent;
+    border-radius: 54px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24%;
+    color: #FDFDFD;
+
+}
+.header-btn3:hover {
+    background-color: #e8aeae;
+    color: white;
+
+  }
+
+  .header-btn3:active {
+    transform: scale(0.95);
+  }
+.buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+
+/* ------------about us------------- */
+.line {
+    width: 100%;
+    border: 1px solid #f7f7f7;
+    margin-top: 77px;
+    margin-bottom: 99px;
+}
+
+.text-block-aboutus h2 {
+    font-family: "Arima", system-ui;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    color: #FDFDFD;
+    margin-bottom: 32px;
+}
+
+.text-block-aboutus h4 {
+    font-weight: Helvetica;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #FDFDFD;
+    margin-bottom: 24px;
+}
+ .text-block-aboutus H6:active {
+    transform: scale(0.95);
+  }
+.text-block-aboutus h5 {
+    font-weight: Helvetica;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #FDFDFD;
+    margin-bottom: 24px;
+}
+
+.text-block-aboutus h6 {
+    font-weight: Helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FDFDFD;
+    opacity: 0.8;
+}
+
+.text-block-aboutus {
+    margin-left: 50%
+}
+
+/* ------------sec3-products------------- */
+.container-sec3 h2 {
+    font-family: "Arima", system-ui;
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 100%;
+    color: #FDFDFD;
+    margin-top: 83px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+ .container-products:active {
+    transform: scale(0.95);
+  }
+    .container-products:hover {
+    background-color: #FFF1EF;
+    color: white;
+  }
+.container-products {
+    width: 401px;
+    height: 444px;
+    border-radius: 24px;
+    background-color: #FDFDFD;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.sec3-products {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
+.sec3-products h3 {
+    font-family: "Arima", system-ui;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color: #480A0A;
+    margin-top: 12px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+/* ------------sec4-grid------------- */
+
+
+.box {
+    background-color: #FFF1EF;
+    height: 1530px;
+    width: 100%;
+    border-radius: 40px;
+    overflow: hidden; 
+   
+}
+.text h2 {
+    font-family: "Arima", system-ui;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    color: #480A0A;
+    margin-bottom: 48px;
+    text-align: center;
+    margin-top: 82px;
+    
+}
+
+.photo-block {
+  position: relative;
+  margin-bottom: 72px;
+  overflow: hidden;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.photo-block img {
+  display: block;
+  border-radius:40px;
+}
+
+.photo-block .overlay {
+  position: absolute;
+  top: 102px;
+  left: 164px;
+  color: #480A0A;
+}
+
+.photo-block .overlay h3 {
+    font-weight: Helvetica;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+  margin-bottom: 24px;
+}
+
+.photo-block .btn {
+  display: inline-block;
+  background: #F3B5B5;  
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-decoration: none;
+
+}
+
+.photo-block .btn:hover {
+    background-color: #e8aeae;
+    color: white;
+
+  }
+
+  .photo-block .btn :active {
+    transform: scale(0.95);
+  }
+
+
+/* ------------sec5-Discounted products------------- */
+.text2 h2 {
+    font-family: "Arima", system-ui;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    color: #fdfdfd;
+    margin-bottom: 48px;
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 80px;
+}
+ .container-products1:active {
+    transform: scale(0.95);
+  }
+    .container-products1:hover {
+    background-color: #FFF1EF;
+    color: white;
+  }
+.sec5-products .container-products1:first-child {
+    width: 441px;
+    height: 655px;
+    border-radius: 40px;
+    background-color: #FDFDFD;
+    padding: 16px;
+
+
+}
+
+.sec5-products .container-products1:first-child h3 {
+    font-family: "Arima", system-ui;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #480A0A;
+    margin-top: 12px;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+
+
+.sec5-products .container-products1:first-child h4 {
+    font-weight: Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 110%;
+    color: #000000;
+    margin-top: 16px;
+    text-align: left;
+
+}
+
+.sec5-products .container-products1:first-child h5 {
+    font-weight: Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+
+    text-align: left;
+
+}
+
+.container-products1 {
+    width: 390px;
+    height: 525px;
+    border-radius: 40px;
+    background-color: #FDFDFD;
+    padding: 16px;
+
+}
+
+.sec5-products {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
+.container-products1 h3 {
+    font-family: "Arima", system-ui;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    color: #480A0A;
+    margin-top: 12px;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.container-products1 h4 {
+    font-weight: Helvetica;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+    margin-top: 12px;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.container-products1 h5 {
+    font-weight: Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000000;
+    margin-top: 12px;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+/* ------------sec6-offers------------- */
+.sec6-offers {
+    width: 100%;
+    height: 524px;
+    background-color: #FFF1EF;
+    border-radius: 40px 40px 0 0;
+}
+
+.sec6-offers h2 {
+    font-family: "Arima", system-ui;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    color: #480A0A;
+    text-align: center;
+    padding-top: 160px;
+}
+
+.box1 {
+    width: 350px;
+    height: 50px;
+    border: #480A0A 1px solid;
+    border-radius: 40px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #480A0A;
+    text-align: left;
+    padding-left: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.box2 {
+    width: 164px;
+    height: 50px;
+    background-color: #480A0A;
+    border-radius: 40px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 32px;
+    display: flex;
+    align-items: center;
+}
+  .box2:hover {
+    color: white;
+  }
+
+  .box2:active {
+    transform: scale(0.95);
+  }
+
+.block {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.sec6-offers h3 {
+    font-family: "Arima", system-ui;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #480A0A;
+    text-align: center;
+    padding-top: 16px;
+}
+
+
+/* ------------footer------------- */
+.container-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.icons{
+    margin-top: 24px;
+    gap: 16px;
+}
+.block-text h4{
+ font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #ffffff;
+}
+.block-text{
+    display: flex;
+    flex-direction: row; 
+    gap: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.container-footer h4{
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #ffffff;
+}
